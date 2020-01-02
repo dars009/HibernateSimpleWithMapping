@@ -11,9 +11,8 @@ public class Test {
 		session.beginTransaction();
 		User user = new User();
 
-		user.setUserId(1);
-		user.setUsername("Darshit");
-		user.setCreatedBy("Google");
+		user.setUsername("Urvi");
+		user.setCreatedBy("Yahoo");
 		user.setCreatedDate(new Date());
 
 		session.save(user);
